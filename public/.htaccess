@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /appGestaoFinanceira/public/
+RewriteBase /AppGestaoFinanceira/public/
 
 # Se o arquivo ou diretório existe, serve-o diretamente
 RewriteCond %{REQUEST_FILENAME} !-f

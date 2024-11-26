@@ -56,7 +56,7 @@
             const email = document.getElementById('email').value;
             const senha = document.getElementById('senha').value;
 
-            const response = await fetch('/appGestaoFinanceira/public/usuarios', {
+            const response = await fetch('http://localhost/AppGestaoFinanceira/public/usuarios', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
