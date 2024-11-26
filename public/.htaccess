@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /appGestaoFinanceira/public/
+
+# Se o arquivo ou diretório existe, serve-o diretamente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Caso contrário, redireciona tudo para index.php
+RewriteRule ^ index.php [QSA,L]

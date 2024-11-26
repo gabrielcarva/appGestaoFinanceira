@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%; /* Garante que a página tenha 100% da altura da janela */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Faz o conteúdo principal crescer para empurrar o rodapé */
+}
