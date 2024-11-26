@@ -26,5 +26,30 @@ class Usuario {
 
         return $stmt->execute();
     }
+
+    public function autenticar($email, $senha) {
+        $query = "SELECT id, nome, senha FROM " . $this->table . " WHERE email = :email";
+        $stmt = $this->conn->prepare($query);
+
+        // Limpar os dados
+        $email = htmlspecialchars(strip_tags($email));
+
+        $stmt->bindParam(':email', $email);
+
+        if ($stmt->execute() && $stmt->rowCount() > 0) {
+            $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            // Verificar a senha
+            if (password_verify($senha, $usuario['senha'])) {
+                return [
+                    "id" => $usuario['id'],
+                    "nome" => $usuario['nome']
+                ];
+            }
+        }
+
+        return false;
+    }
+    
 }
 ?>
