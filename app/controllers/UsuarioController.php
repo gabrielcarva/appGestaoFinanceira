@@ -69,6 +69,57 @@ class UsuarioController {
         }
     }
     
+    public function mudarSenha(){
+        session_start();
+
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
+        
+        error_log("Sessão ativa: " . print_r($_SESSION, true));
+
+        if (!isset($_SESSION['usuario_id'])) {
+            http_response_code(401);
+            echo json_encode(["message" => "Usuário não autenticado."]);
+            return;
+        }
+
+        header("Content-Type: application/json");
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Methods: POST");
+        header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+
+        $data = json_decode(file_get_contents("php://input"));
+
+        // Verificar se os campos necessários foram enviados
+        if (empty($data->senha_atual) || empty($data->nova_senha)) {
+            http_response_code(400);
+            echo json_encode(["message" => "Os campos 'senha_atual' e 'nova_senha' são obrigatórios."]);
+            return;
+        }
+
+        $database = new Database();
+        $db = $database->connect();
+
+        $usuario = new Usuario($db);
+        $usuario->id = $_SESSION['usuario_id'];
+
+        // Verificar se a senha atual está correta
+        if (!$usuario->verificarSenha($data->senha_atual)) {
+            http_response_code(401);
+            echo json_encode(["message" => "A senha atual está incorreta."]);
+            return;
+        }
+
+        // Atualizar a senha
+        if ($usuario->alterarSenha(password_hash($data->nova_senha, PASSWORD_DEFAULT))) {
+            echo json_encode(["message" => "Senha alterada com sucesso!"]);
+        } else {
+            http_response_code(500);
+            echo json_encode(["message" => "Erro ao alterar a senha."]);
+        }
+    }
+
 
 }
 ?>

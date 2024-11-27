@@ -50,6 +50,30 @@ class Usuario {
 
         return false;
     }
-    
+
+    public function verificarSenha($senha){
+        $query = "SELECT senha FROM Usuario WHERE id = :id";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(':id', $this->id);
+        $stmt->execute();
+
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($result && password_verify($senha, $result['senha'])) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public function alterarSenha($novaSenha){
+        $query = "UPDATE Usuario SET senha = :novaSenha WHERE id = :id";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bindParam(':novaSenha', $novaSenha);
+        $stmt->bindParam(':id', $this->id);
+
+        return $stmt->execute();
+    }
+
 }
 ?>
