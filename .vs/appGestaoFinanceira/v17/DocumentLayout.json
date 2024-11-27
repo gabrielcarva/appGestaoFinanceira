@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\appGestaoFinanceira\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\DespesaController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\controllers\\DespesaController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\listar_despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\listar_despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\Despesa.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\models\\Despesa.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\UsuarioController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\controllers\\UsuarioController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\Usuario.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\models\\Usuario.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\registrar_despesa.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\registrar_despesa.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\CategoriaDespesaController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\controllers\\CategoriaDespesaController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\categorias.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\categorias.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\api.php||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\api.php||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\CategoriaDespesa.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\models\\CategoriaDespesa.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\categorias_despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\categorias_despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\config\\Database.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\config\\Database.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\despesas.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\.htaccess||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\.htaccess||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\index.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\index.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\usuarios.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\usuarios.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\home.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\home.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\header.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\header.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "registrar_despesa.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\registrar_despesa.php",
+              "RelativeDocumentMoniker": "public\\registrar_despesa.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\registrar_despesa.php",
+              "RelativeToolTip": "public\\registrar_despesa.php",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwGsAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T20:06:19.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Despesa.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\Despesa.php",
+              "RelativeDocumentMoniker": "app\\models\\Despesa.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\Despesa.php",
+              "RelativeToolTip": "app\\models\\Despesa.php",
+              "ViewState": "AgIAABQAAAAAAAAAAAA7wD0AAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T20:05:30.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "categorias.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\categorias.php",
+              "RelativeDocumentMoniker": "routes\\categorias.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\categorias.php",
+              "RelativeToolTip": "routes\\categorias.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:51:39.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "despesas.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\despesas.php",
+              "RelativeDocumentMoniker": "routes\\despesas.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\despesas.php",
+              "RelativeToolTip": "routes\\despesas.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T20:11:10.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DespesaController.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\DespesaController.php",
+              "RelativeDocumentMoniker": "app\\controllers\\DespesaController.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\DespesaController.php",
+              "RelativeToolTip": "app\\controllers\\DespesaController.php",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T20:04:52.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaDespesaController.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\CategoriaDespesaController.php",
+              "RelativeDocumentMoniker": "app\\controllers\\CategoriaDespesaController.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\CategoriaDespesaController.php",
+              "RelativeToolTip": "app\\controllers\\CategoriaDespesaController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:17:34.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "api.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\api.php",
+              "RelativeDocumentMoniker": "routes\\api.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\api.php",
+              "RelativeToolTip": "routes\\api.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:51:59.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\Usuario.php",
+              "RelativeDocumentMoniker": "app\\models\\Usuario.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\Usuario.php",
+              "RelativeToolTip": "app\\models\\Usuario.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T18:00:47.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "listar_despesas.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\listar_despesas.php",
+              "RelativeDocumentMoniker": "public\\listar_despesas.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\listar_despesas.php",
+              "RelativeToolTip": "public\\listar_despesas.php",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwMEAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T20:10:49.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\UsuarioController.php",
+              "RelativeDocumentMoniker": "app\\controllers\\UsuarioController.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\controllers\\UsuarioController.php",
+              "RelativeToolTip": "app\\controllers\\UsuarioController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:47:23.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriaDespesa.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\CategoriaDespesa.php",
+              "RelativeDocumentMoniker": "app\\models\\CategoriaDespesa.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\models\\CategoriaDespesa.php",
+              "RelativeToolTip": "app\\models\\CategoriaDespesa.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:17:44.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "categorias_despesas.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\categorias_despesas.php",
+              "RelativeDocumentMoniker": "public\\categorias_despesas.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\categorias_despesas.php",
+              "RelativeToolTip": "public\\categorias_despesas.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:17:20.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Database.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\config\\Database.php",
+              "RelativeDocumentMoniker": "app\\config\\Database.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\app\\config\\Database.php",
+              "RelativeToolTip": "app\\config\\Database.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:04:26.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "despesas.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\despesas.php",
+              "RelativeDocumentMoniker": "public\\despesas.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\despesas.php",
+              "RelativeToolTip": "public\\despesas.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:17:10.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": ".htaccess",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\.htaccess",
+              "RelativeDocumentMoniker": "public\\.htaccess",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\.htaccess",
+              "RelativeToolTip": "public\\.htaccess",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-26T20:28:02.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\index.php",
+              "RelativeDocumentMoniker": "public\\index.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\index.php",
+              "RelativeToolTip": "public\\index.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:55:27.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "usuarios.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\usuarios.php",
+              "RelativeDocumentMoniker": "routes\\usuarios.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\routes\\usuarios.php",
+              "RelativeToolTip": "routes\\usuarios.php",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:23:52.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "home.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\home.php",
+              "RelativeDocumentMoniker": "public\\home.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\home.php",
+              "RelativeToolTip": "public\\home.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:18:05.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "header.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\header.php",
+              "RelativeDocumentMoniker": "public\\header.php",
+              "ToolTip": "C:\\xampp\\htdocs\\appGestaoFinanceira\\public\\header.php",
+              "RelativeToolTip": "public\\header.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-11-26T17:26:46.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

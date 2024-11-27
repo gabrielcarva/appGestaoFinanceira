@@ -24,6 +24,9 @@
                     <?php if (isset($_SESSION['usuario_id'])): ?>
                         <!-- Usuário logado -->
                         <li class="nav-item">
+                            <a class="nav-link" href="/appGestaoFinanceira/public/despesas.php">Despesas</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/appGestaoFinanceira/public/minha_conta.php">Minha Conta</a>
                         </li>
                         <li class="nav-item">

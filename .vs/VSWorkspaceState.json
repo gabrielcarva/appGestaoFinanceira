@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\config",
+    "\\app\\controllers",
+    "\\app\\models",
+    "\\assets",
+    "\\assets\\css",
+    "\\public",
+    "\\routes"
+  ],
+  "SelectedNode": "\\routes\\despesas.php",
+  "PreviewInSolutionExplorer": false
+}

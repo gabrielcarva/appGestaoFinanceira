@@ -9,6 +9,6 @@ if ($request === '/' || $request === '/appGestaoFinanceira/public/') {
 } elseif (file_exists($file)) {
     return false;
 } else {
-    require_once '../routes/api.php';
+    require_once __DIR__ . '/../routes/api.php';
 }
 ?>
