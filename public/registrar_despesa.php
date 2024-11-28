@@ -10,7 +10,7 @@
         <div class="mb-3">
             <label for="categoria" class="form-label">Categoria</label>
             <select id="categoria" name="categoria_id" class="form-control" required>
-                <!-- Categorias serão carregadas dinamicamente -->
+                <!-- Categorias serÃ£o carregadas dinamicamente -->
             </select>
         </div>
         <div class="mb-3">
@@ -22,7 +22,7 @@
             <input type="date" id="data" name="data" class="form-control" required>
         </div>
         <div class="mb-3">
-            <label for="descricao" class="form-label">Descrição</label>
+            <label for="descricao" class="form-label">DescriÃ§Ã£o</label>
             <textarea id="descricao" name="descricao" class="form-control"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Registrar</button>
@@ -30,10 +30,10 @@
 </div>
 
 <script>
-    // Função para carregar categorias no dropdown
+    // Funï¿½ï¿½o para carregar categorias no dropdown
     async function carregarCategorias() {
         try {
-            // Certifique-se de que o endpoint correto está sendo chamado
+            // Certifique-se de que o endpoint correto estï¿½ sendo chamado
             const response = await fetch('/appGestaoFinanceira/public/categorias');
             
             if (!response.ok) {
@@ -45,7 +45,7 @@
             const categoriaSelect = document.getElementById('categoria');
             categoriaSelect.innerHTML = '';
 
-            // Adiciona uma opção "Selecione uma categoria" como padrão
+            // Adiciona uma opï¿½ï¿½o "Selecione uma categoria" como padrï¿½o
             const defaultOption = document.createElement('option');
             defaultOption.value = '';
             defaultOption.textContent = 'Selecione uma categoria';
@@ -63,7 +63,7 @@
         }
     }
 
-    // Função para registrar uma despesa
+    // Funï¿½ï¿½o para registrar uma despesa
     async function registrarDespesa(event) {
         event.preventDefault();
 
@@ -90,7 +90,7 @@
             if (response.ok) {
                 alert(result.message);
                 document.getElementById('despesaForm').reset();
-                carregarCategorias(); // Recarregar categorias se necessário
+                carregarCategorias(); // Recarregar categorias se necessï¿½rio
             } else {
                 alert(result.message || "Erro ao registrar despesa.");
             }
@@ -100,7 +100,7 @@
         }
     }
 
-    // Carregar categorias ao carregar a página
+    // Carregar categorias ao carregar a pï¿½gina
     document.addEventListener('DOMContentLoaded', carregarCategorias);
 </script>
 

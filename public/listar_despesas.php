@@ -10,12 +10,12 @@
                 <th>Categoria</th>
                 <th>Valor</th>
                 <th>Data</th>
-                <th>Descrição</th>
-                <th>Ações</th>
+                <th>DescriÃ§Ã£o</th>
+                <th>AÃ§Ãµes</th>
             </tr>
         </thead>
         <tbody id="despesasTable">
-            <!-- As despesas serão carregadas aqui -->
+            <!-- As despesas serï¿½o carregadas aqui -->
         </tbody>
     </table>
 </div>
@@ -38,7 +38,7 @@
                     <div class="mb-3">
                         <label for="editarCategoria" class="form-label">Categoria</label>
                         <select id="editarCategoria" class="form-control" required>
-                            <!-- Categorias serão carregadas dinamicamente -->
+                            <!-- Categorias serÃ£o carregadas dinamicamente -->
                         </select>
                     </div>
                     <div class="mb-3">
@@ -50,7 +50,7 @@
                         <input type="date" id="editarData" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="editarDescricao" class="form-label">Descrição</label>
+                        <label for="editarDescricao" class="form-label">Descriï¿½ï¿½o</label>
                         <textarea id="editarDescricao" class="form-control"></textarea>
                     </div>
                     <button type="button" class="btn btn-primary" onclick="salvarEdicao()">Salvar</button>
@@ -81,7 +81,7 @@
                     <td>${despesa.categoria_nome || 'Sem categoria'}</td>
                     <td>R$ ${parseFloat(despesa.valor).toFixed(2)}</td>
                     <td>${despesa.data}</td>
-                    <td>${despesa.descricao || 'Sem descrição'}</td>
+                    <td>${despesa.descricao || 'Sem descriï¿½ï¿½o'}</td>
                     <td>
                         <button class="btn btn-warning btn-sm" onclick="abrirModalEdicao(${despesa.id})">Editar</button>
                         <button class="btn btn-danger btn-sm" onclick="deletarDespesa(${despesa.id})">Excluir</button>
@@ -164,7 +164,7 @@
                 alert('Erro ao atualizar despesa.');
             }
         } catch (error) {
-            console.error('Erro ao salvar edição:', error);
+            console.error('Erro ao salvar ediï¿½ï¿½o:', error);
         }
     }
 
@@ -177,7 +177,7 @@
             });
 
             if (response.ok) {
-                alert('Despesa excluída com sucesso!');
+                alert('Despesa excluÃ­da com sucesso!');
                 carregarDespesas();
             } else {
                 alert('Erro ao excluir despesa.');

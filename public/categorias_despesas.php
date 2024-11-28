@@ -27,17 +27,17 @@
                 <tr>
                     <th>ID</th>
                     <th>Nome</th>
-                    <th>A��es</th>
+                    <th>Ações</th>
                 </tr>
             </thead>
             <tbody id="categoriasTabela">
-                <!-- Categorias ser�o carregadas dinamicamente -->
+                <!-- Categorias serão carregadas dinamicamente -->
             </tbody>
         </table>
     </div>
     <?php include 'footer.php'; ?>
     <script>
-        // Fun��o para carregar as categorias e exibi-las na tabela
+        // Função para carregar as categorias e exibi-las na tabela
         async function carregarCategorias() {
             try {
                 const response = await fetch('/appGestaoFinanceira/public/categorias');
@@ -64,7 +64,7 @@
             }
         }
 
-        // Fun��o para criar uma nova categoria
+        // Função para criar uma nova categoria
         async function salvarCategoria(event) {
             event.preventDefault();
 
@@ -94,7 +94,7 @@
             }
         }
 
-        // Fun��o para deletar uma categoria
+        // Função para deletar uma categoria
         async function deletarCategoria(id) {
             if (!confirm("Tem certeza que deseja excluir esta categoria?")) return;
 
@@ -114,7 +114,7 @@
             }
         }
 
-        // Inicializar a p�gina carregando as categorias
+        // Inicializar a página carregando as categorias
         document.getElementById('categoriaForm').addEventListener('submit', salvarCategoria);
         carregarCategorias();
     </script>
