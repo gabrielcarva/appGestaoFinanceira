@@ -51,7 +51,7 @@ class DespesaController
             echo json_encode($despesa);
         } else {
             http_response_code(404);
-            echo json_encode(["message" => "Despesa não encontrada."]);
+            echo json_encode(["message" => "Despesa nï¿½o encontrada."]);
         }
     }
 
@@ -61,7 +61,7 @@ class DespesaController
 
         if ($this->despesa->deletar($id)) {
             http_response_code(200);
-            echo json_encode(["message" => "Despesa excluída com sucesso!"]);
+            echo json_encode(["message" => "Despesa excluï¿½da com sucesso!"]);
         } else {
             http_response_code(500);
             echo json_encode(["message" => "Erro ao excluir despesa."]);

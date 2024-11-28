@@ -24,7 +24,7 @@ class CategoriaDespesaController
 
         if (!isset($data->nome) || empty(trim($data->nome))) {
             http_response_code(400);
-            echo json_encode(["message" => "O campo 'nome' é obrigatório."]);
+            echo json_encode(["message" => "O campo 'nome' ï¿½ obrigatï¿½rio."]);
             return;
         }
 

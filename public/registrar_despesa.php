@@ -30,10 +30,10 @@
 </div>
 
 <script>
-    // Fun��o para carregar categorias no dropdown
+    // Função para carregar categorias no dropdown
     async function carregarCategorias() {
         try {
-            // Certifique-se de que o endpoint correto est� sendo chamado
+            // Certifique-se de que o endpoint correto está sendo chamado
             const response = await fetch('/appGestaoFinanceira/public/categorias');
             
             if (!response.ok) {
@@ -45,7 +45,7 @@
             const categoriaSelect = document.getElementById('categoria');
             categoriaSelect.innerHTML = '';
 
-            // Adiciona uma op��o "Selecione uma categoria" como padr�o
+            // Adiciona uma opcao "Selecione uma categoria" como padr�o
             const defaultOption = document.createElement('option');
             defaultOption.value = '';
             defaultOption.textContent = 'Selecione uma categoria';
@@ -63,7 +63,7 @@
         }
     }
 
-    // Fun��o para registrar uma despesa
+    // Funçãoo para registrar uma despesa
     async function registrarDespesa(event) {
         event.preventDefault();
 
@@ -90,7 +90,7 @@
             if (response.ok) {
                 alert(result.message);
                 document.getElementById('despesaForm').reset();
-                carregarCategorias(); // Recarregar categorias se necess�rio
+                carregarCategorias(); // Recarregar categorias se necessario
             } else {
                 alert(result.message || "Erro ao registrar despesa.");
             }
@@ -100,7 +100,7 @@
         }
     }
 
-    // Carregar categorias ao carregar a p�gina
+    // Carregar categorias ao carregar a pagina
     document.addEventListener('DOMContentLoaded', carregarCategorias);
 </script>
 
